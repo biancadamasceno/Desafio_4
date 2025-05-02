@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Rubik:wght@400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.introducao{
+    background-image: url('./assets/image.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;   
+    text-align: center;
+    color: white;
+    padding: 0 20px;
+  }
+  
+
+.subtitulo {
+    font-family: 'Rubik', sans-serif ;
+    font-weight: 500;
+    font-size: 36px;
+    color: #FFFFFF;
+    margin-bottom: 12px;
+}
+
+.titulo {
+    font-family: 'Rubik', sans-serif ;
+    font-weight: 600;
+    font-size: 90px;
+    color: #FFFFFF; 
+    margin-bottom: 12px;
+}
+
+.descricao {
+    font-family: 'Rubik', sans-serif ;
+    font-weight: 400;
+    font-size: 22px;
+    color: #FFFFFF; 
+    margin-bottom: 32px;
+
+}
+
+.botao {
+    display: inline-block;
+    background: linear-gradient(90deg, #98AA28 0%, #489413 52%, #008000 100%);
+    padding: 18px 32px;
+    font-size: 18px;
+    width: 243px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 999px; 
+    text-decoration: none;
+    cursor: pointer; 
+    line-height: 1;     
+}
+
+  .container-botao {
+    display: flex;
+    justify-content: center;
+
+  }
