@@ -56,6 +56,8 @@ body {
     display: inline-block;
     background: linear-gradient(90deg, #98AA28 0%, #489413 52%, #008000 100%);
     padding: 18px 32px;
+    font-family: 'Rubik', sans-serif ;
+    font-weight: 600;
     font-size: 18px;
     width: 243px;
     font-weight: bold;
@@ -71,4 +73,20 @@ body {
     display: flex;
     justify-content: center;
 
+  }
+
+  .texto-porque-entender{
+    font-family: 'Rubik', sans-serif ;
+    font-weight: 500;
+    font-size: 42px;
+    color: #0E7948;
+    margin-top: 12px;
+
+  }
+
+  .texto-educacao {
+    font-family: 'Inter', sans-serif ;
+    font-weight: 400;
+    font-size: 22px;
+    color: #000000;
   }
