@@ -74,19 +74,70 @@ body {
     justify-content: center;
 
   }
-
+  
   .texto-porque-entender{
     font-family: 'Rubik', sans-serif ;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 42px;
-    color: #0E7948;
-    margin-top: 12px;
-
-  }
-
-  .texto-educacao {
+    color: #0E7948; 
+}
+  
+.texto-educacao, .educa-dados {
     font-family: 'Inter', sans-serif ;
     font-weight: 400;
     font-size: 22px;
-    color: #000000;
-  }
+    color: #000000;  
+}
+
+.alguns-exemplares {
+  font-family: 'Rubik', sans-serif ;
+  font-weight: 700;
+  font-size: 32px;
+  color: #0E7948; 
+  display: flex;
+  align-items: flex-start;
+}
+
+.sobre-projeto {
+  font-family: 'Rubik', sans-serif ;
+  font-weight: 700;
+  font-size: 42px;
+  color: #0E7948; 
+}
+
+.indices {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #000000;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.lista-indices {
+  display: flex;
+  justify-content: center;      
+  align-items: flex-start;     
+  flex-wrap: wrap;               
+  gap: 40px;                     
+  overflow-x: auto;             
+  padding: 10px;
+}
+
+.indice {
+  min-width: 180px;
+}
+
+.indice img {
+  width: 110px;
+  height: 110px;
+  display: block;
+  margin: 0 auto 10px; 
+}
+
+.ver-mais {
+    font-family: 'Rubik', sans-serif ;
+    font-weight: 500;
+    font-size: 22px;
+    color: #0E7948; 
+}
