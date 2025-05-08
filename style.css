@@ -141,3 +141,103 @@ body {
     font-size: 22px;
     color: #0E7948; 
 }
+
+.inscricao {
+  text-align: center;
+  padding: 40px 20px;
+  font-family: 'Inter', sans-serif;
+  background-color: #fff;
+}
+
+.inscricao p {
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.formulario-inscricao {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.formulario-inscricao input[type="email"] {
+  width: 100%;
+  padding: 14px;
+  border: 2px solid #0E7948;
+  border-radius: 30px;
+  font-size: 16px;
+  outline: none;
+}
+
+.formulario-inscricao button {
+  width: 100%;
+  padding: 14px;
+  background-color: #0E7948;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.formulario-inscricao button:hover {
+  background-color: #09633a;
+}
+
+/* Seção de inscrição */
+.inscricao {
+  text-align: center;
+  padding: 40px 20px;
+  font-family: 'Inter', sans-serif;
+  background-color: #fff;
+}
+
+.inscricao p {
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* Formulário com largura máxima */
+.formulario-inscricao {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.formulario-inscricao input[type="email"] {
+  width: 100%;
+  padding: 16px;
+  border: 2px solid #0E7948;
+  border-radius: 30px;
+  font-size: 16px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.formulario-inscricao button {
+  width: 100%;
+  padding: 16px;
+  background-color: #0E7948;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.formulario-inscricao button:hover {
+  background-color: #09633a;
+}
