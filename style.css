@@ -122,43 +122,6 @@ body {
   color: #0E7948; 
 }
 
-.indices {
-  font-family: 'Inter', sans-serif;
-  font-weight: 400;
-  font-size: 18px;
-  color: #000000;
-  margin: 20px 0;
-  text-align: center;
-}
-
-.lista-indices {
-  display: flex;
-  justify-content: center;      
-  align-items: flex-start;     
-  flex-wrap: wrap;               
-  gap: 40px;                     
-  overflow-x: auto;             
-  padding: 10px;
-}
-
-.indice {
-  min-width: 180px;
-}
-
-.indice img {
-  width: 110px;
-  height: 110px;
-  display: block;
-  margin: 0 auto 10px; 
-}
-
-.ver-mais {
-    font-family: 'Rubik', sans-serif ;
-    font-weight: 500;
-    font-size: 22px;
-    color: #0E7948; 
-}
-
 .inscricao {
   text-align: center;
   padding: 40px 20px;
@@ -207,7 +170,6 @@ body {
   background-color: #09633a;
 }
 
-/* Seção de inscrição */
 .inscricao {
   text-align: center;
   padding: 40px 20px;
@@ -221,7 +183,6 @@ body {
   margin-bottom: 20px;
 }
 
-/* Formulário com largura máxima */
 .formulario-inscricao {
   display: flex;
   flex-direction: column;
@@ -257,4 +218,63 @@ body {
 
 .formulario-inscricao button:hover {
   background-color: #09633a;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+  flex-wrap: wrap; 
+  gap: 20px; 
+}
+
+.texto {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.texto h1 {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 700;
+  font-size: 42px;
+  color: #0E7948;
+  margin-bottom: 10px;
+}
+
+.texto p {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  color: #000000;
+  line-height: 1.6;
+}
+
+.imagem {
+  flex: 1;
+  text-align: right;
+}
+
+.imagem img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.botao-dashboard {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  background-color: #0E7948;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.botao-dashboard:hover {
+  background-color: #095c36;
 }
