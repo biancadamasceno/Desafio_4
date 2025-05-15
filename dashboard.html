@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gráfico IDEB por Estado</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body>
+  <div class="container">
+    <h1>Índice de Desenvolvimento da Educação Básica (Ideb) - Notas por Estado</h1>
+    <div class="filters">
+      <select id="ano">
+        <option value="" disabled selected>Ano</option>
+        <option value="2007">2007</option>
+        <option value="2011">2011</option>
+        <option value="2013">2013</option>
+        <option value="2015">2015</option>
+        <option value="2017">2017</option>
+        <option value="2019">2019</option>
+      </select>
+
+      <select id="rede">
+        <option value="" disabled selected>Rede</option>
+        <option value="1">Federal</option>
+        <option value="2">Estadual</option>
+        <option value="3">Municipal</option>
+      </select>
+
+      <select id="ciclo">
+        <option value="" disabled selected>Ciclo</option>
+        <option value="AI">Anos Iniciais</option>
+        <option value="AF">Anos Finais</option>
+        <option value="EM">Ensino Médio</option>
+      </select>
+    </div>
+
+    <div id="loading"> <i class="fas fa-spinner fa-spin"></i> Os dados estão sendo carregados, aguarde.</div>
+    <div id="error"></div>
+    <canvas id="idebChart" width="600" height="400"></canvas>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="script.js"></script>
+
+   <footer class="rodape">
+    <div class="links">
+      <a href="#"><img src="image.png"></a>
+       <a href="#">Home</a>
+      <a href="#">Dashboard</a>
+      <a href="#">Sobre</a>
+      <a href="#">Contate-nos</a>
+    </div>
+    <p>&copy; Copyright EducaçãoBrasil. All right reserved</p>
+  </footer> 
+
+</body>
+</html>
