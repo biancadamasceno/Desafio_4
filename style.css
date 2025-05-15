@@ -73,7 +73,13 @@ body {
     display: flex;
     justify-content: center;
 
-  }
+}
+
+  .texto-inicio {
+   padding-left: 40px;
+   padding-right: 40px;
+}
+  
   
   .texto-porque-entender{
     font-family: 'Rubik', sans-serif ;
@@ -82,11 +88,20 @@ body {
     color: #0E7948; 
 }
   
-.texto-educacao, .educa-dados {
+.texto-educacao{
     font-family: 'Inter', sans-serif ;
     font-weight: 400;
     font-size: 22px;
     color: #000000;  
+}
+
+.educa-dados {
+    font-family: 'Inter', sans-serif ;
+    font-weight: 400;
+    font-size: 22px;
+    color: #000000;  
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .alguns-exemplares {
@@ -96,6 +111,8 @@ body {
   color: #0E7948; 
   display: flex;
   align-items: flex-start;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .sobre-projeto {
