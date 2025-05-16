@@ -7,7 +7,7 @@
   
 body {
   font-family: 'Inter', Arial, sans-serif;
-  background-color: #f4f4f4;
+  background-color: white;
   color: #333;
   min-height: 100vh;
   display: flex;
@@ -69,7 +69,7 @@ body {
     font-weight: bold;
     color: white;
     border: none;
-    border-radius: 62,43rem; 
+    border-radius: 999px; 
     text-decoration: none;
     cursor: pointer; 
     line-height: 1;     
