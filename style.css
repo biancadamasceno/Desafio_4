@@ -285,6 +285,37 @@ body {
   background-color: #095c36;
 }
 
+.rodape {
+  background-color: #f5f5f5;
+  text-align: center;
+  padding: 20px 10px;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+}
+
+.rodape .links {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.rodape a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+}
+
+.rodape a:hover {
+  text-decoration: underline;
+}
+
+img {
+  width: 164px;
+  height: 36px;
+}
+
 /*Lucks trocou alguns valores antes daqui, e vou começar a codar daqui em diante*/
 
 /* Gráfico reponsivo*/
