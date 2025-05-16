@@ -1,10 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Rubik:wght@400;500;600;700&display=swap');
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Inter' Arial, sans-serif;
   margin: 20px;
   background-color: #f4f4f4;
   color: #333;
+  flex-direction: column;
 }
 
 .container {
@@ -22,6 +29,8 @@ body {
 }
 
 h1 {
+  font-size: 1.75rem;
+  line-height: 1.2;
   text-align: center;
   margin-bottom: 20px;
 }
@@ -39,10 +48,10 @@ h1 {
   padding: 8px 12px;         
   background-color: none;  
   color: #333;               
-  font-size: 16px;           
+  font-size: 1rem;           
   margin: 8px 0;              
   outline: none;              
-  transition: border 0.3s;    
+  transition: border 0.3s;   
 }
 
 .filters select:focus {
@@ -74,6 +83,7 @@ h1 {
   padding: 20px 10px;
   font-family: 'Inter', sans-serif;
   font-size: 14px;
+  margin-top: auto;
 }
 
 .rodape .links {
@@ -88,13 +98,95 @@ h1 {
   text-decoration: none;
   color: #000;
   font-weight: 500;
+  transition: opacity 0.3s;
 }
 
 .rodape a:hover {
   text-decoration: underline;
+  opacity: 0.7;
+}
+
+.rodape img {
+  width: 140px; /*reduzir para o mobile*/
+  height: auto; /*manter A proporção*/
 }
 
 img {
   width: 164px;
   height: 36px;
+}
+
+
+/*Lucks trocou alguns valores antes daqui, e vou começar a codar daqui em diante*/
+
+/* Gráfico reponsivo*/
+#idebChart {
+  width: 100% !important;
+  height: auto  !important;
+  aspect-ratio: 3/2;
+}
+/*mensagem de loading\erro*/
+#loading, #erro {
+  text-align: center;
+  font-weight: bold;
+  display: none;
+  padding: 15px;
+  font-family: 'inter', sans-serif;
+  font-size: 1.1rem;
+}
+
+#loading {
+  color: #000000;
+}
+
+#error {
+  color: red;
+  margin-bottom: 10px;
+}
+
+/*tentar manter a proporção do grafico test espero q dê certo */
+.rodape img {
+width: 164px;
+height: auto; /*na teoria é pra manter a proporção*/
+}
+
+@media screen and (max-width: 768px) {
+  .conteiner{
+    margin: 10px auto;
+    padding: 15px;
+    border-radius: 0;
+    box-shadow: none;
+  }
+ h1{
+  font-size: 1.5rem;
+  margin: 15px 0;
+ }
+ .filter select {
+  width: 100%;
+  max-width: 300px;
+ }
+ .rodape .links{
+  flex-direction: column;
+  gap: 15px;
+ }
+ .rodape img{
+  width: 140px;
+ }
+}
+
+
+@media screen and (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+  h1 {
+    font-size: 1.25rem;
+  }
+  .filter select {
+    font-size: 0.9rem;
+    padding: 8px 12px;
+  }
+  .rodape img {
+    width: 120px;
+  }
 }
