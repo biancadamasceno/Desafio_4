@@ -1,3 +1,4 @@
+/*Hello, the lucks passou aqui.*/ 
 document.addEventListener('DOMContentLoaded', function () {
   const loadingElement = document.getElementById('loading');
   const errorElement = document.getElementById('error');
