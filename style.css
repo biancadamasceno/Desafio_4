@@ -6,8 +6,14 @@
   }
   
 body {
-    margin: 0;
-    padding: 0;
+  font-family: 'Inter', Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
 }
 
 
@@ -23,47 +29,47 @@ body {
     align-items: center;   
     text-align: center;
     color: white;
-    padding: 0 20px;
+    padding: 0 1.25rem;
   }
   
 
 .subtitulo {
     font-family: 'Rubik', sans-serif ;
     font-weight: 500;
-    font-size: 36px;
+    font-size: 2.25rem;
     color: #FFFFFF;
-    margin-bottom: 12px;
+    margin-bottom: 0.75rem;
 }
 
 .titulo {
     font-family: 'Rubik', sans-serif ;
     font-weight: 600;
-    font-size: 90px;
+    font-size: 5.62rem;
     color: #FFFFFF; 
-    margin-bottom: 12px;
+    margin-bottom: 0.75rem;
 }
 
 .descricao {
     font-family: 'Rubik', sans-serif ;
     font-weight: 400;
-    font-size: 22px;
+    font-size: 1.37rem;
     color: #FFFFFF; 
-    margin-bottom: 32px;
+    margin-bottom: 2rem;
 
 }
 
 .botao {
     display: inline-block;
     background: linear-gradient(90deg, #98AA28 0%, #489413 52%, #008000 100%);
-    padding: 18px 32px;
+    padding: 1.12rem 2rem;
     font-family: 'Rubik', sans-serif ;
     font-weight: 600;
-    font-size: 18px;
-    width: 243px;
+    font-size: 1.12rem;
+    width: 15.18rem;
     font-weight: bold;
     color: white;
     border: none;
-    border-radius: 999px; 
+    border-radius: 62,43rem; 
     text-decoration: none;
     cursor: pointer; 
     line-height: 1;     
@@ -76,92 +82,92 @@ body {
 }
 
   .texto-inicio {
-   padding-left: 40px;
-   padding-right: 40px;
+   padding-left: 2.5rem;
+   padding-right: 2.5rem;
 }
   
   
   .texto-porque-entender{
     font-family: 'Rubik', sans-serif ;
     font-weight: 700;
-    font-size: 42px;
+    font-size: 2.62rem;
     color: #0E7948; 
 }
   
 .texto-educacao{
     font-family: 'Inter', sans-serif ;
     font-weight: 400;
-    font-size: 22px;
+    font-size: 1.37rem;
     color: #000000;  
 }
 
 .educa-dados {
     font-family: 'Inter', sans-serif ;
     font-weight: 400;
-    font-size: 22px;
+    font-size: 1.37rem;
     color: #000000;  
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
 }
 
 .alguns-exemplares {
   font-family: 'Rubik', sans-serif ;
   font-weight: 700;
-  font-size: 32px;
+  font-size: 2rem;
   color: #0E7948; 
   display: flex;
   align-items: flex-start;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
 }
 
 .sobre-projeto {
   font-family: 'Rubik', sans-serif ;
   font-weight: 700;
-  font-size: 42px;
+  font-size: 2.62rem;
   color: #0E7948; 
 }
 
 .inscricao {
   text-align: center;
-  padding: 40px 20px;
+  padding: 2.5rem 1.25rem;
   font-family: 'Inter', sans-serif;
   background-color: #fff;
 }
 
 .inscricao p {
   font-weight: 600;
-  font-size: 16px;
-  margin-bottom: 20px;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .formulario-inscricao {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 10px;
-  max-width: 500px;
+  gap: 0.62rem;
+  max-width: 31.25rem;
   margin: 0 auto;
 }
 
 .formulario-inscricao input[type="email"] {
   width: 100%;
-  padding: 14px;
-  border: 2px solid #0E7948;
-  border-radius: 30px;
-  font-size: 16px;
+  padding: 0.87rem;
+  border: 0.12rem solid #0E7948;
+  border-radius: 1.87rem;
+  font-size: 1rem;
   outline: none;
 }
 
 .formulario-inscricao button {
   width: 100%;
-  padding: 14px;
+  padding: 0.87rem;
   background-color: #0E7948;
   color: #fff;
   border: none;
-  border-radius: 30px;
+  border-radius: 1.87rem;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 1rem;
   cursor: pointer;
   transition: background-color 0.3s;
 }
@@ -172,46 +178,46 @@ body {
 
 .inscricao {
   text-align: center;
-  padding: 40px 20px;
+  padding: 2.5rem 1.25rem;
   font-family: 'Inter', sans-serif;
   background-color: #fff;
 }
 
 .inscricao p {
   font-weight: 600;
-  font-size: 16px;
-  margin-bottom: 20px;
+  font-size: 1rem;
+  margin-bottom: 1.25rem;
 }
 
 .formulario-inscricao {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 15px;
-  max-width: 800px;
+  gap: 0.93rem;
+  max-width: 50rem;
   width: 100%;
   margin: 0 auto;
 }
 
 .formulario-inscricao input[type="email"] {
   width: 100%;
-  padding: 16px;
-  border: 2px solid #0E7948;
-  border-radius: 30px;
-  font-size: 16px;
+  padding: 1rem;
+  border: 0.12rem solid #0E7948;
+  border-radius: 1.87rem;
+  font-size: 1rem;
   outline: none;
   box-sizing: border-box;
 }
 
 .formulario-inscricao button {
   width: 100%;
-  padding: 16px;
+  padding: 1rem;
   background-color: #0E7948;
   color: #fff;
   border: none;
-  border-radius: 30px;
+  border-radius: 1.87rem;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 1rem;
   cursor: pointer;
   transition: background-color 0.3s;
 }
@@ -224,28 +230,28 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 40px;
+  padding: 2.5rem;
   flex-wrap: wrap; 
-  gap: 20px; 
+  gap: 1.25rem; 
 }
 
 .texto {
   flex: 1;
-  padding-right: 20px;
+  padding-right: 1.25rem;
 }
 
 .texto h1 {
   font-family: 'Rubik', sans-serif;
   font-weight: 700;
-  font-size: 42px;
+  font-size: 2.62rem;
   color: #0E7948;
-  margin-bottom: 10px;
+  margin-bottom: 0.62rem;
 }
 
 .texto p {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
-  font-size: 22px;
+  font-size: 1.37rem;
   color: #000000;
   line-height: 1.6;
 }
@@ -258,23 +264,96 @@ body {
 .imagem img {
   max-width: 100%;
   height: auto;
-  border-radius: 10px;
+  border-radius: 0.62rem;
 }
 
 .botao-dashboard {
   display: inline-block;
-  margin-top: 20px;
-  padding: 12px 24px;
+  margin-top: 1.25rem;
+  padding: 0.75rem 1.5rem;
   background-color: #0E7948;
   color: white;
   text-decoration: none;
-  border-radius: 8px;
+  border-radius: 0.5rem;
   font-family: 'Inter', sans-serif;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 500;
   transition: background-color 0.3s ease;
 }
 
 .botao-dashboard:hover {
   background-color: #095c36;
+}
+
+/*Lucks trocou alguns valores antes daqui, e vou começar a codar daqui em diante*/
+
+/* Gráfico reponsivo*/
+#idepChart{
+  width: 100% !important;
+  height: 100% !important;
+  aspect-ratio: 3/2;
+}
+/*mensagem de loading\erro*/
+#loading, #erro {
+  text-align: center;
+  font-weight: bold;
+  display: none;
+  padding: 15px;
+  font-family: 'inter', sans-serif;
+  font-size: 1.1rem;
+}
+
+#loading {
+  color: #000000;
+}
+
+#error {
+  color: red;
+  margin-bottom: 10px;
+}
+
+/*tentar manter a proporção do grafico test espero q dê certo */
+.rodape img {
+width: 164px;
+height: auto; /*na teoria é pra manter a proporção*/
+}
+
+@media screen and (max-width: 768px) {
+  .conteiner{
+    margin: 10px auto;
+    padding: 15px;
+    border-radius: 0;
+    box-shadow: none;
+  }
+ h1{
+  font-size: 1.5rem;
+ }
+ .filter select {
+  width: 100%;
+  max-width: 300px;
+ }
+ .rodape .links{
+  flex-direction: column;
+  gap: 15px;
+ }
+ .rodape img{
+  width: 140px;
+ }
+}
+
+
+@media screen and (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+  h1 {
+    font-size: 1.25rem;
+  }
+  .filter select {
+    font-size: 0.9rem;
+    padding: 8px 12px;
+  }
+  .rodape img {
+    width: 120px;
+  }
 }
