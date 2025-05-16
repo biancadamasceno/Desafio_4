@@ -288,7 +288,7 @@ body {
 /*Lucks trocou alguns valores antes daqui, e vou começar a codar daqui em diante*/
 
 /* Gráfico reponsivo*/
-#idepChart{
+#idebChart{
   width: 100% !important;
   height: 100% !important;
   aspect-ratio: 3/2;
