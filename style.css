@@ -317,6 +317,18 @@ body {
 width: 164px;
 height: auto; /*na teoria é pra manter a proporção*/
 }
+#rodape-ideb {
+  text-align: center;
+}
+
+#rodape-ideb .links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+
 
 @media screen and (max-width: 768px) {
   .conteiner{
