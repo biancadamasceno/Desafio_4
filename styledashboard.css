@@ -107,8 +107,8 @@ h1 {
 }
 
 .rodape img {
-  width: 140px; /*reduzir para o mobile*/
-  height: auto; /*manter A proporção*/
+  width: 140px; 
+  height: auto; 
 }
 
 img {
@@ -117,15 +117,12 @@ img {
 }
 
 
-/*Lucks trocou alguns valores antes daqui, e vou começar a codar daqui em diante*/
-
-/* Gráfico reponsivo*/
 #idebChart {
   width: 100% !important;
   height: auto  !important;
   aspect-ratio: 3/2;
 }
-/*mensagem de loading\erro*/
+
 #loading, #erro {
   text-align: center;
   font-weight: bold;
@@ -144,10 +141,10 @@ img {
   margin-bottom: 10px;
 }
 
-/*tentar manter a proporção do grafico test espero q dê certo */
+
 .rodape img {
 width: 164px;
-height: auto; /*na teoria é pra manter a proporção*/
+height: auto;
 }
 
 @media screen and (max-width: 768px) {
