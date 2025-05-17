@@ -311,89 +311,138 @@ body {
   text-decoration: underline;
 }
 
+.image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.62rem;
+  display: block;
 
+  margin: auto;
+}
 
+.botao-dashboard {
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.botao-dashboard:hover {
+  transition: translateY(-2px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
 /*Lucks trocou alguns valores antes daqui, e vou começar a codar daqui em diante*/
 
-/* Gráfico reponsivo*/
-#idebChart{
-  width: 100% !important;
-  height: 100% !important;
-  aspect-ratio: 3/2;
-}
-/*mensagem de loading\erro*/
-#loading, #erro {
-  text-align: center;
-  font-weight: bold;
-  display: none;
-  padding: 15px;
-  font-family: 'inter', sans-serif;
-  font-size: 1.1rem;
-}
-
-#loading {
-  color: #000000;
-}
-
-#error {
-  color: red;
-  margin-bottom: 10px;
-}
-
-/*tentar manter a proporção do grafico test espero q dê certo */
-.rodape img {
-width: 164px;
-height: auto; /*na teoria é pra manter a proporção*/
-}
-#rodape-ideb {
-  text-align: center;
-}
-
-#rodape-ideb .links {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 15px;
-}
-
-
-
-@media screen and (max-width: 768px) {
-  .conteiner{
-    margin: 10px auto;
-    padding: 15px;
-    border-radius: 0;
-    box-shadow: none;
+@media (max-width: 1200px) {
+  .titulo {
+   font-size: 4rem;
+   
   }
- h1{
-  font-size: 1.5rem;
- }
- .filter select {
-  width: 100%;
-  max-width: 300px;
- }
- .rodape .links{
-  flex-direction: column;
-  gap: 15px;
- }
- .rodape img{
-  width: 140px;
- }
 }
 
+@media (max-width: 992px){
+  .introducao {
+    height: auto;
+    min-height: 100vh;
+    padding: 4rem 1.25rem;
+  }
 
-@media screen and (max-width: 480px) {
-  body {
-    font-size: 14px;
+  .titulo {
+    font-size: 4rem;
   }
-  h1 {
-    font-size: 1.25rem;
+
+  .container {
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem;
   }
-  .filter select {
-    font-size: 0.9rem;
-    padding: 8px 12px;
+
+  .texto {
+    padding-right: 0;
+    margin-bottom: 2rem;
   }
-  .rodape img {
-    width: 120px;
+
+  .imagem {
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .titulo {
+    font-size: 3.5rem;
+  }
+
+  .subtitulo {
+    font-size: 2.25rem;
+  }
+
+  .descricao {
+    font-size: 1.8rem;
+  }
+
+  .texto-porque-entender, 
+  .sobre-projeto {
+    font-size: 2rem;
+  } 
+
+  .texto-educacao,
+  .educa-dados {
+    font-size: 1.1rem;
+  }
+
+  .texto h1 {
+    font-size: 2rem;
+  }
+
+  .texto p {
+    font-size: 1.1rem;
+  }
+
+  .botao {
+    width: 100%;
+    max-height: 250px;
+  }
+}
+
+@media (max-width: 576px) {
+  .titulo {
+    font-size: 2.5rem;
+    line-height: 1.2;
+  }
+
+  .subtitulo {
+    font-size: 2rem;
+  }
+
+  .texto-porque-entender,
+  .sobre-projeto {
+    font-size: 1.5rem;
+  }
+
+  .texto-inicio,
+  .educa-dados {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .container {
+    padding: 1.5rem;
+  }
+
+  .rodape .links {
+    gap: 15px;
+    flex-direction: column;
+  }
+
+  .formulario-inscricao {
+    width: 90%;
+  }
+}
+
+@media (max-width: 400px) {
+  .titulo {
+    font-size: 2.25rem;
+  }
+
+  .botao {
+    padding: 1rem 1.5rem;
+    font-size: 1rem;
   }
 }
