@@ -84,8 +84,8 @@ document.addEventListener('DOMContentLoaded', function () {
           datasets: [{
             label: `IDEB ${ano}, ${dependencia_id}, ${ciclo_id}`,
             data: dataValues,
-            backgroundColor: 'rgba(11, 121, 44, 0.6)',
-            borderColor: 'rgb(10, 151, 69)',
+            backgroundColor: '#0E7948',
+            borderColor: '#0E7948',
             borderWidth: 1
           }]
         },
