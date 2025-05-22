@@ -18,7 +18,7 @@ body {
 
 
 .introducao{
-    background-image: url('./assets/image.png');
+    background-image: url('../assets/image.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
